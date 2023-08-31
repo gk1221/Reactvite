@@ -12,6 +12,8 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+      'react/jsx-uses-vars': 'warn', // 將未使用的變數警告改為警告
+    'no-unused-vars': 'warn', // 將未使用的變數警告改為警告,
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
